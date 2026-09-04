@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop de Coffee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--Swiper, uma biblioteca de slider/carrossel moderna e poderosa, usada principalmente em sites e aplicativos web para criar slides interativos — como galerias de imagens, sliders de conteúdo, ou banners animados.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Font Awesome é uma biblioteca de ícones em formato de fonte e SVG, muito usada em desenvolvimento web. Ela permite que você adicione ícones vetoriais (como lixeira, coração, carrinho de compras, redes sociais, etc.) com facilidade usando apenas HTML e CSS.-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Header ou topo do site -->
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕Cafe Quente</h2>
+            </a>
+
+            <button id="menu-open-button" class="fas fa-bars" aria-label="Abrir menu"></button>
+             <button id="menu-close-button" class="fas fa-times" aria-label="Fechar menu"></button>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#Inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#Sobre Nos" class="nav-link">Sobre Nos</a></li>
+                <li class="nav-item"><a href="#Cardapio" class="nav-link">Cardapio</a></li>
+                <li class="nav-item"><a href="#Galeria" class="nav-link">Galeria</a></li>
+                <li class="nav-item"><a href="#Avaliações" class="nav-link">Avaliações</a></li>
+                <li class="nav-item"><a href="#Contatos" class="nav-link">Contatos</a></li>
+            </ul>  
+              <button id="menu-close-button" class="fas fa-times" aria-label="Fechar menu"></button>
+        </nav>      
+    </header>
+      
+           
+    <main>
+        <!-- Seção Apresentração  -->
+        <section class="hero-section"id="Inicio">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Melhor Cafe</h2>
+                    <h3 class="subtitle">
+                        Esquente a sua manhã com o melhor café da sua região.
+                    </h3>
+                    <p class="description">
+                        Na Café Quente, você encontra muito mais do que um bom café. Nosso cardápio foi pensado para
+                        agradar todos os paladares,com Cafés artesanais: espresso, cappuccino, latte, mocaccino <br> Bebidas geladas: frappuccinos, cafés gelados, smoothies<br> Doces e sobremesas tortas, bolos caseiros, cookies <br>Salgados fresquinhos: croissants, pães de queijo, sanduíches artesanais <br>Opções sem lactose e veganas
+
+                        <br>Tudo isso servido em um ambiente acolhedor, com wi-fi gratuito e atendimento feito com carinho.
+
+
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="button">Order Now</a>
+                        <a href="#" class="button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.png" alt="Imagem de café decorativa" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Do About -->
+        <section class="about-section" id="Sobre Nos">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="Equipe preparando café" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">Sobre Nós</h2>
+                    <p class="text">
+                        Bem-vindo à Café Quente, um espaço criado para os verdadeiros apaixonados por café. Aqui, cada
+                        detalhe é pensado para proporcionar uma experiência única: desde o aroma envolvente até o sabor
+                        marcante de nossos grãos selecionados. Oferecemos um ambiente aconchegante, perfeito para
+                        relaxar, trabalhar ou compartilhar bons momentos.
+
+                        Além do nosso café artesanal, nosso cardápio conta com bebidas geladas, doces fresquinhos e
+                        opções especiais para todos os gostos. Na Café Quente, o carinho está presente em cada xícara.
+
+                        Venha nos visitar e descubra o prazer de um café feito com alma.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Parte do Menu-->
+        <section class="menu-section"id="Cardapio">
+            <h2 class="section-title">Nosso Menu</h2>
+            <div class="setion-contet">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.png" alt="cold-beverages" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="hot-beverages" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="desserts" class="menu-image">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger-frenchfries.png" alt="burger-frenchfries" class="menu-image">
+                        <h3 class="name">Burger Frenchfries</h3>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/refreshment.png" alt="refreshment" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="special-combo" class="menu-image">
+                        <h3 class="name">Special Combo</h3>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Avaliaçoes-->
+        <section class="testimonials-section" id="Avaliações">
+            <h2 class="section-title">Avaliações</h2>
+            <div class="section-content">
+                <div class="slider-content swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-1.jpg" alt="" class="user-image">
+                                <h3 class="name">Sara Conner</h3>
+                                <i class="feedback">Atendimento incrível e o café é simplesmente delicioso! Voltarei com
+                                    certeza.</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-2.jpg" alt="" class="user-image">
+                                <h3 class="name">Jorge Souza</h3>
+                                <i class="feedback">Ambiente acolhedor e cheiro de café no ar.Não tem como não amar!</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-3.jpg" alt="" class="user-image">
+                                <h3 class="name">Joao Paulo</h3>
+                                <i class="feedback">Simplesmente perfeito! Ótimo lugar para relaxar e saborear um bom
+                                    café</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <img src="images/user-4.jpg" alt="" class="user-image">
+                                <h3 class="name">Maria Silva</h3>
+                                <i class="feedback">Cada detalhe foi pensado com carinho. Excelente experiência</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Galeria-->
+        <section class="gallery-section" id="Galeria">
+            <h2 class="section-title">Galeria</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpg
+                             " alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpg
+                             " alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpg
+                             " alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg
+                             " alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg
+                             " alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg
+                             " alt="" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="contact-section" id="Contatos">
+            <h2 class="section-title">Contatos</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Av. Machado Alecrim Dourado - Bairro João de Barro</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>inforshopcafe219@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(22) 99265-9802</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Segunda a Sexta: 12:00 PM - 23:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sábado: 9:00 AM - 15:00 PM<br>Domingo: Fechado</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.cafequente.com.br</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" class="form-input" placeholder="Seu nome" required>
+                    <input type="email" class="form-input" placeholder="Seu e-mail" required>
+                    <textarea class="form-input" placeholder="Sua mensagem" required></textarea>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">@ 2024 Café Quente</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">.</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
