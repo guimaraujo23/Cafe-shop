@@ -18,8 +18,8 @@ Um site moderno e responsivo para uma cafeteria, desenvolvido com HTML, CSS e Ja
 
 ## 🛠️ Como Executar o Projeto Localmente
 
-<video src="">
+<video src="https://github.com/user-attachments/assets/76802119-f690-4f27-a9cb-1b8ef3ab8149">
 
-https://github.com/user-attachments/assets/76802119-f690-4f27-a9cb-1b8ef3ab8149
+
 
 </video>
